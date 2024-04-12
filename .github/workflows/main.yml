@@ -21,6 +21,6 @@ jobs:
           port: ${{ secrets.PORT }}
 
           script: |
-            export PATH="$PATH:/usr/local/bin
+            export PATH="$PATH:/usr/local/bin"
             cd Tiggle
             docker ps
